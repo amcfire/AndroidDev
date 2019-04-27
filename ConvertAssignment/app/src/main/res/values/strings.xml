@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConvertAssignment</string>
+    <string name="text1">Input (LBs)</string>
+    <string name="text2">Output (KGs)</string>
+    <string name="text3">0</string>
+    <string name="input1">0</string>
+    <string name="button1">Convert</string>
+</resources>

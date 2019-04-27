@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">WallmartLab</string>
+    <string name="a1label1">Sign in to your account</string>
+    <string name="a1label2">Email address (Required)</string>
+    <string name="a1label3">Password (Required)</string>
+    <string name="a1label4">Do not have an account</string>
+    <string name="a1Button1">Forgot password*</string>
+    <string name="a1Button2">Sign in</string>
+    <string name="a1Button3">Create new account</string>
+    <string name="a2label1">Wellcome</string>
+    <string name="a2label2">Shop by categories</string>
+    <string name="a2label3">Electronics</string>
+    <string name="a2label4">Clothing</string>
+    <string name="a2label5">Beauty</string>
+    <string name="a2label6">Food</string>
+    <string name="a3label1">Create your account</string>
+    <string name="a3label2">* required field</string>
+    <string name="a3label3">First Name*</string>
+    <string name="a3label4">Last Name*</string>
+    <string name="a3label5">Email address*</string>
+    <string name="a3label6">Password*</string>
+    <string name="a3Button1">Create Account</string>
+    <string name="ablabel1">Beauty Zone</string>
+    <string name="ablabel2">Please select a product:</string>
+
+    <string-array name="beautyProducts">
+        <item>BH Cosmetics</item>
+        <item>Lip Sense</item>
+        <item>Charlotte Tilbury</item>
+        <item>Milk MakeUp</item>
+        <item>Benefict Cosmetic</item>
+        <item>Megaglo Powder</item>
+        <item>Fenty Beauty</item>
+        <item>Huda Beauty</item>
+    </string-array>
+
+    <string-array name="ClothingProducts">
+        <item>belt</item>
+        <item>boots</item>
+        <item>cap</item>
+        <item>coat</item>
+        <item>dress</item>
+        <item>gloves</item>
+        <item>hat</item>
+        <item>jacket</item>
+        <item>jeans</item>
+        <item>pajamas</item>
+        <item>pants</item>
+        <item>raincoat</item>
+        <item>scarf</item>
+        <item>shirt</item>
+        <item>shoes</item>
+        <item>skirt</item>
+        <item>slacks</item>
+        <item>slippers</item>
+        <item>socks</item>
+        <item>stockings</item>
+        <item>suit</item>
+        <item>sweater</item>
+        <item>sweatshirt</item>
+        <item>t-shirt</item>
+        <item>tie</item>
+        <item>trousers</item>
+        <item>underclothes</item>
+        <item>underpants</item>
+        <item>undershirt</item>
+    </string-array>
+
+</resources>

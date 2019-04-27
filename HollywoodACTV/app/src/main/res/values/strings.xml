@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HollywoodAC</string>
+    <string-array name="moviesArray">
+        <item>Citizen Kane</item>
+        <item>The Godfather</item>
+        <item>Casablanca</item>
+        <item>Raging Bull</item>
+        <item>Gone with the Wind</item>
+        <item>Lawrence of Arabia</item>
+        <item>Vertigo</item>
+        <item>The Wizard of Oz</item>
+        <item>City Lights</item>
+        <item>The Searchers</item>
+        <item>Star Wars</item>
+        <item>Psycho</item>
+        <item>The Graduate</item>
+        <item>The General</item>
+    </string-array>
+</resources>

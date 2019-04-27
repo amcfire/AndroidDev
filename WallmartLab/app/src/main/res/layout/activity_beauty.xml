@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".BeautyActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ablabel1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="28sp"
+        android:textColor="@color/colorBl"
+        />
+
+    <ImageView
+        android:id="@+id/imageView03"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/beauty"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:layout_column="0"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="5sp"
+        />
+
+    <TextView
+        android:id="@+id/textView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ablabel2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:layout_column="0"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="5sp"
+        android:textSize="20sp"
+        android:textColor="@color/colorBl"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/beautySpinner"
+        android:entries="@array/beautyProducts"
+        />
+
+</LinearLayout>

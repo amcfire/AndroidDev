@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".NewUserActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="313dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/wallmart" />
+
+<TextView
+    android:id="@+id/tv01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/a3label1"
+    android:layout_marginBottom="20sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:textSize="28sp"
+    android:textColor="@color/colorBl"/>
+
+<TextView
+    android:id="@+id/textView0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/a3label2"
+    android:textColor="@color/colorBl"/>
+
+<TextView
+    android:id="@+id/tvname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/a3label3"
+    android:textColor="@color/colorGr"/>
+
+<EditText
+    android:id="@+id/etname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    />
+
+<TextView
+    android:id="@+id/tvlast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/a3label4"
+    android:textColor="@color/colorGr"/>
+
+<EditText
+    android:id="@+id/etlast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    />
+
+<TextView
+    android:id="@+id/tvmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/a3label5"
+    android:textColor="@color/colorGr"/>
+
+<EditText
+    android:id="@+id/etmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:ems="10"
+    android:inputType="textEmailAddress"
+    />
+
+<TextView
+    android:id="@+id/tvpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="@string/a3label6"
+    android:textColor="@color/colorGr"/>
+
+<EditText
+    android:id="@+id/etpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:ems="10"
+    android:inputType="textPassword" />
+
+
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="20sp"
+    android:background="@color/colorB"
+    android:textColor="@color/colorF"
+    android:text="@string/a1Button2"
+    android:onClick="createNAccount"
+    android:textSize="18sp" />
+
+</LinearLayout>
