@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".LoginActivity">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="20sp"
+    android:src="@drawable/logo" />
+
+<TextView
+    android:id="@+id/tv01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Please Sign in"
+    android:layout_marginBottom="20sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:textSize="28sp"
+    android:textColor="@color/colorBl"/>
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="User:"
+    android:textColor="@color/colorGr"/>
+
+<EditText
+    android:id="@+id/etuser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:ems="10"
+    />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="Password:"
+    android:textColor="@color/colorGr"/>
+
+<EditText
+    android:id="@+id/etpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:ems="10"
+    android:inputType="textPassword" />
+
+<TextView
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_gravity="right"
+    android:gravity="top|right"
+    android:layout_marginBottom="20sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="*Forgot your password"
+    android:textColor="@color/colorGr"
+    />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="20sp"
+    android:background="@color/colorB"
+    android:textColor="@color/colorF"
+    android:text="Login"
+    android:onClick="signIn"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:textColor="@color/colorBl"
+    android:gravity="center_horizontal"
+    android:text="Do not have an account"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:gravity="center_horizontal"
+    android:text="Create New Account"
+    android:textColor="@color/colorB"
+    android:textSize="18sp" />
+
+
+</LinearLayout>

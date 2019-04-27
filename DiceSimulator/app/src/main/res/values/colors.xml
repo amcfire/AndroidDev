@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorB">#192cff</color>
+    <color name="colorF">#ffffff</color>
+    <color name="colorBl">#000000</color>
+    <color name="colorBuy">#082e00</color>
+    <color name="colorSell">#970000</color>
+    <color name="colorAuto">#535353</color>
+    <color name="colorGr">#919191</color>
+    <color name="colorBk">#daffce</color>
+    <color name="colorSt">#ff8c00</color>
+    <color name="colorWin">#03b700</color>
+    <color name="colorLose">#e70000</color>
+</resources>

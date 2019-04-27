@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".SettingsActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="top|right"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3sp"
+        android:layout_marginRight="20sp"
+        android:text="LogOut"
+        android:textColor="@color/colorF"
+        android:autoLink="all"
+        android:clickable="true"
+        android:background="@color/colorB"
+        android:onClick="logOut"
+        />
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="top|right"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="3sp"
+        android:layout_marginRight="5sp"
+        android:text="name /"
+        android:layout_toLeftOf="@+id/tvlogout"
+        android:textColor="@color/colorGr"
+        />
+</RelativeLayout>
+
+
+<TextView
+    android:id="@+id/tv01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Settings"
+    android:layout_marginTop="5sp"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:textSize="28sp"
+    android:textColor="@color/colorBl"/>
+
+
+
+<TextView
+    android:id="@+id/tvTtry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:text="Paper Money Settings"
+    android:textSize="20dp"
+    android:background="@color/colorSell"
+    android:gravity="center"
+    android:textColor="@color/colorF"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Deposit:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorBl"
+        />
+
+    <EditText
+        android:id="@+id/etsize"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="0.01"
+        android:ems="7"
+        android:layout_toRightOf="@+id/tvTop"
+        />
+
+    <Button
+        android:id="@+id/buttonBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/colorAuto"
+        android:textColor="@color/colorF"
+        android:text="Deposit"
+        android:onClick="opBuy"
+        android:layout_toRightOf="@+id/etsize"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvTop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Withdraw:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvTop"
+        android:textColor="@color/colorBl"
+        />
+
+    <EditText
+        android:id="@+id/etsize2"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="0.01"
+        android:ems="7"
+        android:layout_toRightOf="@+id/tvTop2"
+        android:layout_below="@+id/tvTop"
+        />
+
+    <Button
+        android:id="@+id/buttonBuy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/colorAuto"
+        android:textColor="@color/colorF"
+        android:text="Withdraw"
+        android:onClick="opBuy"
+        android:layout_toRightOf="@+id/etsize2"
+        android:layout_below="@+id/tvTop"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvTop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="TimerDelay:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvTop2"
+        android:textColor="@color/colorBl"
+        />
+
+    <EditText
+        android:id="@+id/etsize3"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="0.01"
+        android:ems="7"
+        android:layout_toRightOf="@+id/tvTop3"
+        android:layout_below="@+id/tvTop2"
+        />
+
+    <Button
+        android:id="@+id/buttonBuy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/colorAuto"
+        android:textColor="@color/colorF"
+        android:text="Set"
+        android:onClick="opBuy"
+        android:layout_toRightOf="@+id/etsize3"
+        android:layout_below="@+id/tvTop2"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvTop4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Name"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvTop3"
+        android:textColor="@color/colorBl"
+        />
+
+    <EditText
+        android:id="@+id/etsize4"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="0.01"
+        android:ems="7"
+        android:layout_toRightOf="@+id/tvTop2"
+        android:layout_below="@+id/tvTop3"
+        />
+
+    <Button
+        android:id="@+id/buttonBuy4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/colorAuto"
+        android:textColor="@color/colorF"
+        android:text="Change"
+        android:onClick="opBuy"
+        android:layout_toRightOf="@+id/etsize2"
+        android:layout_below="@+id/tvTop3"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvTop5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Password:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvTop4"
+        android:textColor="@color/colorBl"
+        />
+
+    <EditText
+        android:id="@+id/etsize5"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="0.01"
+        android:ems="7"
+        android:layout_toRightOf="@+id/tvTop5"
+        android:layout_below="@+id/tvTop4"
+        />
+
+    <Button
+        android:id="@+id/buttonBuy5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/colorAuto"
+        android:textColor="@color/colorF"
+        android:text="Change"
+        android:onClick="opBuy"
+        android:layout_toRightOf="@+id/etsize5"
+        android:layout_below="@+id/tvTop4"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvTop6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Secret:"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvTop5"
+        android:textColor="@color/colorBl"
+        />
+
+    <EditText
+        android:id="@+id/etsize6"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="0.01"
+        android:ems="7"
+        android:layout_toRightOf="@+id/tvTop5"
+        android:layout_below="@+id/tvTop5"
+        />
+
+    <Button
+        android:id="@+id/buttonBuy6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/colorAuto"
+        android:textColor="@color/colorF"
+        android:text="Change"
+        android:onClick="opBuy"
+        android:layout_toRightOf="@+id/etsize6"
+        android:layout_below="@+id/tvTop5"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>
+
+
+<TextView
+    android:id="@+id/tvLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="20sp"
+    android:gravity="center_horizontal"
+    android:text=""
+    android:textColor="@color/colorBl"
+    android:textSize="2sp"
+    android:background="@color/colorBl"
+    />
+
+<TextView
+    android:id="@+id/tvCredits"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:gravity="center_horizontal"
+    android:text="Powered By:    Dang / Andres"
+    android:textColor="@color/colorBl"
+    android:textSize="12sp"
+    app:fontFamily="casual" />
+
+
+
+</LinearLayout>
