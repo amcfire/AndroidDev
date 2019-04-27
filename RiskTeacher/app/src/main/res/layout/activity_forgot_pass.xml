@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email Address Here"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/forgot_email_edit_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_border"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/signin_border"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="Or send us an email"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/send_email"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/signin_border"-->
+        <!--android:text="Send us an email"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@android:color/white" />-->
+
+</LinearLayout>
+

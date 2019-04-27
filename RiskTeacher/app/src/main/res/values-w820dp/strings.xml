@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sttxt1">Settings</string>
+    <string name="stparam1t">Deposit</string>
+    <string name="stparam2t">Withdraw</string>
+    <string name="stbalance">Balance</string>
+    <string name="stparam3t">TimerConf</string>
+    <string name="stparam4t">ChangePass</string>
+    <string name="stparam5t">Email</string>
+    <string name="stparam6t">History</string>
+</resources>

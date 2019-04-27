@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_media_player"
+            android:icon="@drawable/media_icon"
+            android:title="Media Player" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video_icon"
+            android:title="Video view" />
+        <item
+            android:id="@+id/nav_audio_recording"
+            android:icon="@drawable/audio_recording_icon"
+            android:title="Audio Recording" />
+        <item
+            android:id="@+id/nav_video_recording"
+            android:icon="@drawable/video_recording_icon"
+            android:title="Video Recording" />
+        <item
+            android:id="@+id/nav_camera_gallery"
+            android:icon="@drawable/gallery_icon"
+            android:title="Camera &amp; Gallery" />
+    </group>
+</menu>

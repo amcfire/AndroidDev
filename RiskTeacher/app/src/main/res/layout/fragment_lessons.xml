@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lessons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/selector_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button
+            android:id="@+id/lesson1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 1"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 2"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 3"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 4"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 5"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 6"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson7"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 7"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 8"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson9"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 9"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson10"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 10"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/lesson11"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Lesson 11"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

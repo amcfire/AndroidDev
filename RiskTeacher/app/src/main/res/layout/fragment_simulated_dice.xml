@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="top|right"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3sp"
+            android:layout_marginRight="20sp"
+            android:text="LogOut"
+            android:textColor="@color/colorF"
+            android:autoLink="all"
+            android:clickable="true"
+            android:background="@color/colorB"
+            android:onClick="logOut"
+            />
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="top|right"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="3sp"
+            android:layout_marginRight="5sp"
+            android:text="name /"
+            android:layout_toLeftOf="@+id/tvlogout"
+            android:textColor="@color/colorF"
+            android:autoLink="all"
+            android:clickable="true"
+            android:background="@color/colorB"
+            android:onClick="logOut"            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="PaperMoney Simulator"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="28sp"
+        android:textColor="@color/colorBl"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="left"
+                android:layout_marginBottom="1sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/logo" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvTBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5sp"
+                        android:text="Your Balance:"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorBl"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvNBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5sp"
+                        android:text="0"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorBl"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvTCtry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5sp"
+                        android:text="Last Try:"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorBl"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tvTCresult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5sp"
+                        android:text="Ready"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorBl"/>
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvTtry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="New Try"
+        android:textSize="20dp"
+        android:background="@color/colorBl"
+        android:gravity="center"
+        android:textColor="@color/colorF"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="8sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="Operation Size:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorBl"
+            />
+
+        <EditText
+            android:id="@+id/etsize"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:text="0.01"
+            android:ems="7"
+            android:layout_toRightOf="@+id/tvTop"
+            />
+
+        <Button
+            android:id="@+id/buttonBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@color/colorBuy"
+            android:textColor="@color/colorF"
+            android:text="BUY"
+            android:layout_below="@+id/etsize"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonSell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@color/colorSell"
+            android:textColor="@color/colorF"
+            android:text="SELL"
+            android:layout_below="@+id/etsize"
+            android:layout_toRightOf="@+id/buttonBuy"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@color/colorAuto"
+            android:textColor="@color/colorF"
+            android:text="Auto"
+            android:layout_below="@+id/etsize"
+            android:layout_toRightOf="@+id/buttonSell"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Last Operations info:"
+        android:background="@color/colorBk"
+        android:textColor="@color/colorBl"/>
+
+
+    <TextView
+        android:id="@+id/tvop1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="top|left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Operation1"
+        android:background="@color/colorBk"
+        android:textColor="@color/colorGr"
+        />
+    <TextView
+        android:id="@+id/tvop2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="top|left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Operation2"
+        android:background="@color/colorBk"
+        android:textColor="@color/colorGr"
+        />
+    <TextView
+        android:id="@+id/tvop3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="top|left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Operation3"
+        android:background="@color/colorBk"
+        android:textColor="@color/colorGr"
+        />
+    <TextView
+        android:id="@+id/tvop4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="top|left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Operation3"
+        android:background="@color/colorBk"
+        android:textColor="@color/colorGr"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btrefresh"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="@color/colorSell"
+                android:text=" Refresh Balance "
+                android:textColor="@color/colorF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btst"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="@color/colorSt"
+                android:text=" Show Statistics "
+                android:layout_toRightOf="@+id/btrefresh"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    <TextView
+        android:id="@+id/tvLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/colorBl"
+        android:textSize="2sp"
+        android:background="@color/colorBl"
+        />
+
+    <TextView
+        android:id="@+id/tvCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="center_horizontal"
+        android:text="Powered By:    Dang / Andres"
+        android:textColor="@color/colorBl"
+        android:textSize="12sp"
+        app:fontFamily="casual" />
+
+
+
+</LinearLayout>
+</ScrollView>

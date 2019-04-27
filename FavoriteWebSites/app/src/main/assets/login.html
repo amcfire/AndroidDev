@@ -1,0 +1,31 @@
+<html>
+<body bgcolor="#111F7D" text="FFFFFF">
+<head>
+    <script language="JavaScript">
+            function login(){
+            var name=document.getElementById('name').value;
+            var pass=document.getElementById('pass').value;
+            var xvalid=myinterface.validate(name,pass);
+            alert(xvalid);
+            }
+        </script>
+</head>
+<center>
+    <h2> Welcome to My favorite WebSites </h2>
+    <table>
+        <tr><td colspan='2' align="center">Login Form </td></tr>
+        <tr><td>Enter UName : </td> <td> <input type="text" id="name"/></td></tr>
+        <tr><td>Enter Pass : </td> <td> <input type="password" id="pass"/></td></tr>
+        <tr><td colspan='2' align="center"> <input type="button" value="Login" onclick="login()"/> </td></tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+</center>
+<p>*You can enter to the page using guest credentials</p>
+<p>user: guest</p>
+<p>pass: guest</p>
+<!-- <p> <a href="favorites.html"> <span>favorites.html</span></a></p> -->
+</body>
+</html>

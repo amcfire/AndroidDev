@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="top|right"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3sp"
+            android:layout_marginRight="20sp"
+            android:text="LogOut"
+            android:textColor="@color/colorF"
+            android:autoLink="all"
+            android:clickable="true"
+            android:background="@color/colorB"
+            android:onClick="logOut"
+            />
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="top|right"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="3sp"
+            android:layout_marginRight="5sp"
+            android:text="name /"
+            android:layout_toLeftOf="@+id/tvlogout"
+            android:textColor="@color/colorF"
+            android:autoLink="all"
+            android:clickable="true"
+            android:background="@color/colorB"
+            android:onClick="logOut"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Contact Information"
+        android:layout_marginTop="4sp"
+        android:layout_marginBottom="4sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="28sp"
+        android:textColor="@color/colorBl"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="4sp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textAlignment="center"
+        android:text="TeamCoin Group"
+        android:textSize="24sp"
+        android:background="@color/colorBuy"
+        android:textColor="@color/colorF"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="start"
+        android:text="Hai Dang Nguyen"
+        android:textSize="20sp"
+        android:textColor="@color/colorGr"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="start"
+        android:text="ha.nguyen@mum.edu"
+        android:textSize="20sp"
+        android:textColor="@color/colorGr"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="start"
+        android:text="ID: 986425"
+        android:textSize="20sp"
+        android:textColor="@color/colorGr"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="end"
+        android:text="Andres Mendez"
+        android:textSize="20sp"
+        android:textColor="@color/colorGr"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="end"
+        android:text="acorchuelo@mum.edu"
+        android:textSize="20sp"
+        android:textColor="@color/colorGr"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="end"
+        android:text="ID: 986117"
+        android:textSize="20sp"
+        android:textColor="@color/colorGr"/>
+
+</LinearLayout>
+
+</ScrollView>
